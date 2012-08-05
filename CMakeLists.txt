@@ -1,0 +1,17 @@
+cmake_minimum_required (VERSION 2.8)
+project(test)
+set(EXECUTABLE_OUTPUT_PATH bin)
+set(CFLAGS -std=c++0x -pipe -Wall -pedantic)
+
+if(DEBUG)
+    set(CFLAGS ${CFLAGS} -g3 -DDEBUG)
+else()
+    set(CFLAGS ${CFLAGS} -O2)
+endif()
+
+add_definitions(${CFLAGS})
+#set (LIBRARIES zmq)
+file (GLOB HEADERS source/*.hpp)
+file (GLOB SOURCES source/*.cpp)
+add_executable (${PROJECT_NAME} ${HEADERS} ${SOURCES})
+target_link_libraries (${PROJECT_NAME} zmq pthread)
