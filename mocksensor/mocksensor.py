@@ -48,7 +48,7 @@ def mocksensor(filename, address, interval_sec):
             elif t - timestamp >= interval_sec:
                 timestamp = t
                 zsocket.send(buf.getbuffer().tobytes())
-                sleep(interval_sec)
+                sleep(interval_sec/1000)
             # just put serialized packet with header to buffer
             else:
                 header = (pktheader.tv_sec, pktheader.tv_usec, pktheader.caplen, pktheader.len)
