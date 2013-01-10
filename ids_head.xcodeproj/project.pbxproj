@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33165C9416825857005C0A61 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C8F16825857005C0A61 /* libboost_filesystem.a */; };
+		33165C9516825857005C0A61 /* libboost_program_options.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9016825857005C0A61 /* libboost_program_options.a */; };
+		33165C9616825857005C0A61 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9116825857005C0A61 /* libboost_system.a */; };
+		33165C9716825857005C0A61 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9216825857005C0A61 /* libboost_thread.a */; };
+		33165C9816825857005C0A61 /* libmongoclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9316825857005C0A61 /* libmongoclient.a */; };
+		333D84FB166B6CFC004A7569 /* DumpListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 333D84F9166B6CFC004A7569 /* DumpListener.cpp */; };
+		333D84FE166B771E004A7569 /* libconfig++.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 333D84FD166B771E004A7569 /* libconfig++.9.dylib */; };
+		333EEE08167A57BB00DC1989 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 333EEE07167A57BB00DC1989 /* libpthread.dylib */; };
+		33652356166A5F38002DE9DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33652355166A5F38002DE9DC /* main.cpp */; };
+		3365237F166A8472002DE9DC /* libzmq.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33652365166A67C8002DE9DC /* libzmq.1.dylib */; };
+		33652381166A848F002DE9DC /* libmsgpack.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 33652380166A848F002DE9DC /* libmsgpack.3.dylib */; };
+		3379FF52168B5F4700C1E24A /* STrafficManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3379FF50168B5F4700C1E24A /* STrafficManager.cpp */; };
+		33974D11166B8A5600F848AA /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33974D0F166B8A5600F848AA /* Config.cpp */; };
+		33E255891688DB6F00AC4605 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E255871688DB6F00AC4605 /* Database.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3365234F166A5F38002DE9DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33165C8F16825857005C0A61 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = "../../../../usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_filesystem.a"; sourceTree = "<group>"; };
+		33165C9016825857005C0A61 /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = "../../../../usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_program_options.a"; sourceTree = "<group>"; };
+		33165C9116825857005C0A61 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = "../../../../usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_system.a"; sourceTree = "<group>"; };
+		33165C9216825857005C0A61 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = "../../../../usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_thread.a"; sourceTree = "<group>"; };
+		33165C9316825857005C0A61 /* libmongoclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmongoclient.a; path = "../../../../usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libmongoclient.a"; sourceTree = "<group>"; };
+		3336D1211688CA5300801FBE /* config.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.cfg; sourceTree = SOURCE_ROOT; };
+		333D84F9166B6CFC004A7569 /* DumpListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DumpListener.cpp; sourceTree = "<group>"; wrapsLines = 0; };
+		333D84FA166B6CFC004A7569 /* DumpListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DumpListener.h; sourceTree = "<group>"; };
+		333D84FD166B771E004A7569 /* libconfig++.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libconfig++.9.dylib"; path = "../../../../usr/local/lib/libconfig++.9.dylib"; sourceTree = "<group>"; };
+		333EEE07167A57BB00DC1989 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		33652351166A5F38002DE9DC /* ids_head */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ids_head; sourceTree = BUILT_PRODUCTS_DIR; };
+		33652355166A5F38002DE9DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		33652365166A67C8002DE9DC /* libzmq.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzmq.1.dylib; path = ../../../../usr/local/Cellar/zeromq/2.2.0/lib/libzmq.1.dylib; sourceTree = "<group>"; };
+		33652380166A848F002DE9DC /* libmsgpack.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmsgpack.3.dylib; path = ../../../../usr/local/Cellar/msgpack/0.5.7/lib/libmsgpack.3.dylib; sourceTree = "<group>"; };
+		3379FF50168B5F4700C1E24A /* STrafficManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STrafficManager.cpp; sourceTree = "<group>"; };
+		3379FF51168B5F4700C1E24A /* STrafficManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STrafficManager.h; sourceTree = "<group>"; };
+		33974D0F166B8A5600F848AA /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cpp; sourceTree = "<group>"; };
+		33974D10166B8A5600F848AA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		33E255871688DB6F00AC4605 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
+		33E255881688DB6F00AC4605 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3365234E166A5F38002DE9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33165C9416825857005C0A61 /* libboost_filesystem.a in Frameworks */,
+				33165C9516825857005C0A61 /* libboost_program_options.a in Frameworks */,
+				33165C9616825857005C0A61 /* libboost_system.a in Frameworks */,
+				33165C9716825857005C0A61 /* libboost_thread.a in Frameworks */,
+				33165C9816825857005C0A61 /* libmongoclient.a in Frameworks */,
+				333EEE08167A57BB00DC1989 /* libpthread.dylib in Frameworks */,
+				333D84FE166B771E004A7569 /* libconfig++.9.dylib in Frameworks */,
+				33652381166A848F002DE9DC /* libmsgpack.3.dylib in Frameworks */,
+				3365237F166A8472002DE9DC /* libzmq.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33652346166A5F38002DE9DC = {
+			isa = PBXGroup;
+			children = (
+				33165C8F16825857005C0A61 /* libboost_filesystem.a */,
+				33165C9016825857005C0A61 /* libboost_program_options.a */,
+				33165C9116825857005C0A61 /* libboost_system.a */,
+				33165C9216825857005C0A61 /* libboost_thread.a */,
+				33165C9316825857005C0A61 /* libmongoclient.a */,
+				333EEE07167A57BB00DC1989 /* libpthread.dylib */,
+				333D84FD166B771E004A7569 /* libconfig++.9.dylib */,
+				33652380166A848F002DE9DC /* libmsgpack.3.dylib */,
+				33652365166A67C8002DE9DC /* libzmq.1.dylib */,
+				33652354166A5F38002DE9DC /* ids_head */,
+				33652352166A5F38002DE9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33652352166A5F38002DE9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33652351166A5F38002DE9DC /* ids_head */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33652354166A5F38002DE9DC /* ids_head */ = {
+			isa = PBXGroup;
+			children = (
+				3336D1211688CA5300801FBE /* config.cfg */,
+				33974D0F166B8A5600F848AA /* Config.cpp */,
+				333D84F9166B6CFC004A7569 /* DumpListener.cpp */,
+				3379FF50168B5F4700C1E24A /* STrafficManager.cpp */,
+				33E255871688DB6F00AC4605 /* Database.cpp */,
+				33652355166A5F38002DE9DC /* main.cpp */,
+				33AA40861683B0A100395DE3 /* headers */,
+			);
+			path = ids_head;
+			sourceTree = "<group>";
+		};
+		33AA40861683B0A100395DE3 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				3379FF51168B5F4700C1E24A /* STrafficManager.h */,
+				33E255881688DB6F00AC4605 /* Database.h */,
+				333D84FA166B6CFC004A7569 /* DumpListener.h */,
+				33974D10166B8A5600F848AA /* Config.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33652350166A5F38002DE9DC /* ids_head */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365235B166A5F38002DE9DC /* Build configuration list for PBXNativeTarget "ids_head" */;
+			buildPhases = (
+				3365234D166A5F38002DE9DC /* Sources */,
+				3365234E166A5F38002DE9DC /* Frameworks */,
+				3365234F166A5F38002DE9DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ids_head;
+			productName = ids_head;
+			productReference = 33652351166A5F38002DE9DC /* ids_head */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33652348166A5F38002DE9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = vlsu;
+			};
+			buildConfigurationList = 3365234B166A5F38002DE9DC /* Build configuration list for PBXProject "ids_head" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33652346166A5F38002DE9DC;
+			productRefGroup = 33652352166A5F38002DE9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33652350166A5F38002DE9DC /* ids_head */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3365234D166A5F38002DE9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33652356166A5F38002DE9DC /* main.cpp in Sources */,
+				333D84FB166B6CFC004A7569 /* DumpListener.cpp in Sources */,
+				33974D11166B8A5600F848AA /* Config.cpp in Sources */,
+				33E255891688DB6F00AC4605 /* Database.cpp in Sources */,
+				3379FF52168B5F4700C1E24A /* STrafficManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33652359166A5F38002DE9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_VARIANTS = normal;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		3365235A166A5F38002DE9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_VARIANTS = normal;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		3365235C166A5F38002DE9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/usr/local/lib,
+					"\"/usr/local/Cellar/mongodb/2.2.2-x86_64/lib\"",
+					/usr/local/Cellar/glog/0.3.2/lib,
+					/usr/local/Cellar/msgpack/0.5.7/lib,
+					/usr/local/Cellar/zeromq/2.2.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		3365235D166A5F38002DE9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+					/usr/local/lib,
+					"\"/usr/local/Cellar/mongodb/2.2.2-x86_64/lib\"",
+					/usr/local/Cellar/glog/0.3.2/lib,
+					/usr/local/Cellar/msgpack/0.5.7/lib,
+					/usr/local/Cellar/zeromq/2.2.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3365234B166A5F38002DE9DC /* Build configuration list for PBXProject "ids_head" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33652359166A5F38002DE9DC /* Debug */,
+				3365235A166A5F38002DE9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3365235B166A5F38002DE9DC /* Build configuration list for PBXNativeTarget "ids_head" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365235C166A5F38002DE9DC /* Debug */,
+				3365235D166A5F38002DE9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33652348166A5F38002DE9DC /* Project object */;
+}
