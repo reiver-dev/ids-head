@@ -3,7 +3,7 @@
 
 class dump_listner {
 public:
-	void start(struct dump_lisn_cfg *dlc);
+	void start(struct dump_lisn_cfg *dlc, struct db_cfg *dbc);
 };
 
 #endif /* defined(__ids_head__DumpListener__) */

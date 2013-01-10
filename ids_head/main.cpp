@@ -18,14 +18,11 @@ int main(int argc, const char * argv[])
 	db_cfg dbc;
 	cfg.get_db_cfg(&dbc);
 	
-	DB db;
-	db.connect(&dbc);
-	
 	dump_lisn_cfg dlc;
 	cfg.get_dump_lisn_cfg(&dlc);
 	
 	dump_listner DumpLisn;
-	DumpLisn.start(&dlc);
+	DumpLisn.start(&dlc, &dbc);
 	
 	return 0;
 }

@@ -19,7 +19,7 @@ struct dump_headers {
 	MSGPACK_DEFINE(tv_sec, tv_usec, caplen, len);
 };
 
-void worker(zmq::context_t& context)
+void worker(zmq::context_t& context, struct db_cfg *dbc)
 {
 	dump_headers headers;
 	
@@ -44,7 +44,7 @@ void worker(zmq::context_t& context)
 			while (pac.next(&result)) {
 				headers = result.get().as<dump_headers>();
 				
-				DB::dump(headers.tv_sec, headers.tv_usec, headers.caplen, headers.len);
+				DB::dump(dbc, headers.tv_sec, headers.tv_usec, headers.caplen, headers.len);
 				
 				pac.next(&result);
 				// Data: result.get()
@@ -57,7 +57,7 @@ void worker(zmq::context_t& context)
 	}
 }
 
-void dump_listner::start(struct dump_lisn_cfg *dlc)
+void dump_listner::start(struct dump_lisn_cfg *dlc, struct db_cfg *dbc)
 {
 	boost::thread_group threads;
 	try
@@ -73,7 +73,7 @@ void dump_listner::start(struct dump_lisn_cfg *dlc)
 		workers.bind("inproc://workers");
 		
 		for(int i=0;i<4;i++)
-			threads.create_thread(bind(worker, boost::ref(context)));
+			threads.create_thread(bind(worker, boost::ref(context), dbc));
 		
 		zmq::device(ZMQ_STREAMER, clients, workers);
 	}
