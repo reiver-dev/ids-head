@@ -22,9 +22,9 @@ Built target ids_head
 ###Start:
 ```shell
 $ mongod # [--dbpath path] if needed
-./ids_head config.cfg
+$ ./ids_head config.cfg
 ```
 ###Stop:
 ```shell
-./ids_head stop
+$ ./ids_head stop
 ```
