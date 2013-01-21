@@ -1,9 +1,16 @@
 #ifndef __ids_head__Database__
 #define __ids_head__Database__
 
-class DB {
+#include "Config.h"
+#include <logog/logog.hpp>
+
+class MongoDB {
 public:
-	static void dump(struct db_cfg *dbc, int tv_sec, int tv_usec, int caplen, int len);
+	MongoDB(struct db_cfg *dbc);
+	void dump(int tv_sec, int tv_usec, int caplen, int len);
+	
+private:
+	struct db_cfg *dbc;
 };
 
 #endif /* defined(__ids_head__Database__) */

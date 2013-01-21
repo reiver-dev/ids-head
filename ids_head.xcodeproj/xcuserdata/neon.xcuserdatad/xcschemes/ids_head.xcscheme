@@ -60,7 +60,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/neon/dev/ids-head_remote/config.cfg"
+            argument = "/Users/neon/dev/ids-head/config.cfg"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

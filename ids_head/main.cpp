@@ -3,26 +3,18 @@
 //  ids_head
 //
 
-#include <libconfig.h++>
-#include "Config.h"
-#include "Database.h"
-#include "DumpListener.h"
+#include "Core.h"
 
-#include <iostream>
-
-int main(int argc, const char * argv[])
+int main(int argc, const char *argv[])
 {
-	Config cfg;
-	cfg.read_cfg(argv[1]);
+	if (argc != 2)
+	{
+		printf("Usage: ./ids_head [config.cfg] \n Options:\n  stop\n");
+		
+		return -1;
+	}
 	
-	db_cfg dbc;
-	cfg.get_db_cfg(&dbc);
+	Monitor app(argv);
 	
-	dump_lisn_cfg dlc;
-	cfg.get_dump_lisn_cfg(&dlc);
-	
-	dump_listner DumpLisn;
-	DumpLisn.start(&dlc, &dbc);
-	
-	return 0;
+	return app.start();
 }

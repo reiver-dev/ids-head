@@ -6,22 +6,30 @@
 struct dump_lisn_cfg {
 	const char *protocol;
 	const char *ip;
+	
 	int port;
 };
 
 struct db_cfg {
 	const char *ip;
 	int port;
+	
+	const char *db_name;
+	const char *dump_collection;
 };
 
-class Config {
+class Config {	
+public:
+	Config(const char *cfg_file);
+	
+	const char *log_file;
+	bool debug;
+	
+	dump_lisn_cfg dump_lisn;
+	db_cfg db;
+	
 private:
 	libconfig::Config file;
-	
-public:
-	void read_cfg(const char * cfg_file);
-	void get_dump_lisn_cfg(struct dump_lisn_cfg *dlc);
-	void get_db_cfg(struct db_cfg *dbc);
 };
 
 #endif /* defined(__ids_head__Config__) */
