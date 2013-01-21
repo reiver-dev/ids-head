@@ -6,7 +6,7 @@
 - boost_filesystem
 - boost_program_options
 - boost_thread
-- pthread
+- logog
 - config++
 - msgpack
 - zmq
@@ -22,4 +22,8 @@ Built target ids_head
 ```shell
 $ mongod # [--dbpath path] if needed
 ./ids_head config.cfg
+```
+## Stop:
+```shell
+./ids_head stop
 ```
