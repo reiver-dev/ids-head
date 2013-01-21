@@ -19,11 +19,12 @@ Built target ids_head
 ```
 
 ## Quick Start:
+###Start:
 ```shell
 $ mongod # [--dbpath path] if needed
 ./ids_head config.cfg
 ```
-## Stop:
+###Stop:
 ```shell
 ./ids_head stop
 ```
