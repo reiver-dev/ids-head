@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33165C9416825857005C0A61 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C8F16825857005C0A61 /* libboost_filesystem.a */; };
-		33165C9516825857005C0A61 /* libboost_program_options.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9016825857005C0A61 /* libboost_program_options.a */; };
-		33165C9616825857005C0A61 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9116825857005C0A61 /* libboost_system.a */; };
-		33165C9716825857005C0A61 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9216825857005C0A61 /* libboost_thread.a */; };
-		33165C9816825857005C0A61 /* libmongoclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33165C9316825857005C0A61 /* libmongoclient.a */; };
 		33177EB816AD9ABA00F6780A /* liblogog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33177EB716AD9ABA00F6780A /* liblogog.a */; };
 		3334D51516ACA58300018E3E /* libzmq.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3334D51416ACA58300018E3E /* libzmq.dylib */; };
 		333D84FB166B6CFC004A7569 /* DumpListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 333D84F9166B6CFC004A7569 /* DumpListener.cpp */; };
@@ -21,6 +16,11 @@
 		3379FF52168B5F4700C1E24A /* STrafficManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3379FF50168B5F4700C1E24A /* STrafficManager.cpp */; };
 		3382C8B716ADCB3300A1C871 /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3382C8B516ADCB3300A1C871 /* Core.cpp */; };
 		33974D11166B8A5600F848AA /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33974D0F166B8A5600F848AA /* Config.cpp */; };
+		33D50EC316AE0FF10000B6A5 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D50EBE16AE0FF10000B6A5 /* libboost_filesystem.a */; };
+		33D50EC416AE0FF10000B6A5 /* libboost_program_options.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D50EBF16AE0FF10000B6A5 /* libboost_program_options.a */; };
+		33D50EC516AE0FF10000B6A5 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D50EC016AE0FF10000B6A5 /* libboost_system.a */; };
+		33D50EC616AE0FF10000B6A5 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D50EC116AE0FF10000B6A5 /* libboost_thread.a */; };
+		33D50EC716AE0FF10000B6A5 /* libmongoclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D50EC216AE0FF10000B6A5 /* libmongoclient.a */; };
 		33E255891688DB6F00AC4605 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E255871688DB6F00AC4605 /* Database.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +37,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33165C8F16825857005C0A61 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = "/usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_filesystem.a"; sourceTree = "<absolute>"; };
-		33165C9016825857005C0A61 /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = "/usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_program_options.a"; sourceTree = "<absolute>"; };
-		33165C9116825857005C0A61 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = "/usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_system.a"; sourceTree = "<absolute>"; };
-		33165C9216825857005C0A61 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = "/usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libboost_thread.a"; sourceTree = "<absolute>"; };
-		33165C9316825857005C0A61 /* libmongoclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmongoclient.a; path = "/usr/local/Cellar/mongodb/2.2.2-x86_64/lib/libmongoclient.a"; sourceTree = "<absolute>"; };
 		33177EB716AD9ABA00F6780A /* liblogog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogog.a; path = /usr/local/lib/liblogog.a; sourceTree = "<absolute>"; };
 		3334D51416ACA58300018E3E /* libzmq.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzmq.dylib; path = /usr/local/lib/libzmq.dylib; sourceTree = "<absolute>"; };
 		3336D1211688CA5300801FBE /* config.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.cfg; sourceTree = SOURCE_ROOT; };
@@ -57,6 +52,11 @@
 		3382C8B616ADCB3300A1C871 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		33974D0F166B8A5600F848AA /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cpp; sourceTree = "<group>"; };
 		33974D10166B8A5600F848AA /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		33D50EBE16AE0FF10000B6A5 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = /usr/local/lib/mongo/libboost_filesystem.a; sourceTree = "<absolute>"; };
+		33D50EBF16AE0FF10000B6A5 /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = /usr/local/lib/mongo/libboost_program_options.a; sourceTree = "<absolute>"; };
+		33D50EC016AE0FF10000B6A5 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = /usr/local/lib/mongo/libboost_system.a; sourceTree = "<absolute>"; };
+		33D50EC116AE0FF10000B6A5 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = /usr/local/lib/mongo/libboost_thread.a; sourceTree = "<absolute>"; };
+		33D50EC216AE0FF10000B6A5 /* libmongoclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmongoclient.a; path = /usr/local/lib/mongo/libmongoclient.a; sourceTree = "<absolute>"; };
 		33E255871688DB6F00AC4605 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
 		33E255881688DB6F00AC4605 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,11 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33165C9416825857005C0A61 /* libboost_filesystem.a in Frameworks */,
-				33165C9516825857005C0A61 /* libboost_program_options.a in Frameworks */,
-				33165C9616825857005C0A61 /* libboost_system.a in Frameworks */,
-				33165C9716825857005C0A61 /* libboost_thread.a in Frameworks */,
-				33165C9816825857005C0A61 /* libmongoclient.a in Frameworks */,
+				33D50EC316AE0FF10000B6A5 /* libboost_filesystem.a in Frameworks */,
+				33D50EC416AE0FF10000B6A5 /* libboost_program_options.a in Frameworks */,
+				33D50EC516AE0FF10000B6A5 /* libboost_system.a in Frameworks */,
+				33D50EC616AE0FF10000B6A5 /* libboost_thread.a in Frameworks */,
+				33D50EC716AE0FF10000B6A5 /* libmongoclient.a in Frameworks */,
 				333D84FE166B771E004A7569 /* libconfig++.9.dylib in Frameworks */,
 				33652381166A848F002DE9DC /* libmsgpack.3.dylib in Frameworks */,
 				3334D51516ACA58300018E3E /* libzmq.dylib in Frameworks */,
@@ -117,11 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				33177EB716AD9ABA00F6780A /* liblogog.a */,
-				33165C8F16825857005C0A61 /* libboost_filesystem.a */,
-				33165C9016825857005C0A61 /* libboost_program_options.a */,
-				33165C9116825857005C0A61 /* libboost_system.a */,
-				33165C9216825857005C0A61 /* libboost_thread.a */,
-				33165C9316825857005C0A61 /* libmongoclient.a */,
+				33D50EBE16AE0FF10000B6A5 /* libboost_filesystem.a */,
+				33D50EBF16AE0FF10000B6A5 /* libboost_program_options.a */,
+				33D50EC016AE0FF10000B6A5 /* libboost_system.a */,
+				33D50EC116AE0FF10000B6A5 /* libboost_thread.a */,
+				33D50EC216AE0FF10000B6A5 /* libmongoclient.a */,
 				333D84FD166B771E004A7569 /* libconfig++.9.dylib */,
 				33652380166A848F002DE9DC /* libmsgpack.3.dylib */,
 				3334D51416ACA58300018E3E /* libzmq.dylib */,
@@ -286,10 +286,7 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = (
-					/usr/local/lib,
-					"\"/usr/local/Cellar/mongodb/2.2.2-x86_64/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = /usr/local/include;
@@ -303,10 +300,7 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = /usr/local/include;
-				LIBRARY_SEARCH_PATHS = (
-					/usr/local/lib,
-					"\"/usr/local/Cellar/mongodb/2.2.2-x86_64/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = /usr/local/include;
